@@ -1,0 +1,85 @@
+body{
+	background: white;
+}
+
+.nav-wrapper, .page-footer {
+	background: black;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.card-title, .intro{
+	font-family: 'Trebuchet MS', sans-serif;
+	color: white;
+}
+
+.card{
+	background: black;
+	height: 205px;
+}
+
+.video{
+	float: left;
+	margin-left: 70px;
+
+}
+
+.video2{
+	float: right;
+	margin-right: 70px;
+}
+
+.your-class{
+	margin-top: 50px;
+}
+
+
+
+.descr {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	margin-right: 220px;
+	margin-left: 330px;
+	margin-top: 80px;
+	width: 790px;
+}
+
+
+.leftimg {
+float:left; /* Вирівнювання по лівому краю */
+margin: 7px 7px 7px 0; /* Відступи навколо картинки */
+padding-right: 30px;
+}
+.rightimg {
+float: right; /* Вирівнювання по правому краю */
+margin: 0 7px 7px 7px;/* Відступи навколо картинки */
+padding-left: 30px;
+}
+
+.page-footer{
+	margin-top: 30px;
+}
+
+
+.qtext{
+	font-family: 'Trebuchet MS', sans-serif;
+	color: white;
+	font-style: italic;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.quotes{
+	background: black;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 230px;
+	margin-right: 230px;
+}
+
+.background-photo{
+	background-image: url("../img_m/third.jpeg");
+}
+
+
+

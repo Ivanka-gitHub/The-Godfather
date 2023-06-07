@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+     
+     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    </head>
+
+    <body>
+
+<!-- Блок меню -->
+      <nav>
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo" text-align="center">Сюжет</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="file:///Users/ivanna.volkova/Desktop/Project1/Project_materialize/cover_page.html">Головна сторінка</a></li>
+            <li><a href="file:///Users/ivanna.volkova/Desktop/Project1/Project_materialize/quotes.html">Цитати</a></li>
+          </ul>
+        </div>
+      </nav>
+<!-- Блок меню -->
+
+      <center>
+
+
+<!-- Галерея -->
+        <div class="your-class">
+          <div><img src="img_m/vesilla.jpeg" height="600" width="1000"></div>
+          <div><img src="img_m/image2.jpeg" height="600" width="1000"></div>
+          <div><img src="img_m/image3.jpeg" height="600" width="1000"></div>
+        </div>
+
+
+      </center>
+
+      <div class="mov">
+      
+  <p class="descr"> <img src="img_m/movie1.jpeg" class="rightimg">  Сюжет фільму розгортається навколо мафіозного роду Корлеоне, який контролює кримінальну діяльність у Нью-Йорку. Головний герой, Дон Віто Корлеоне, глава сім'ї, намагається передати свою владу своєму найстаршому сину, Майклу. Але коли Дона Віто вбивають відразу після несподіваного нападу, Майклу доводиться взяти на себе керівництво родиною. Він вступає в світ злочинності і поступово перетворюється з ніжного інтелектуала на безжалісного мафіозі. У процесі Майкл здобуває владу, вирішує змову проти своєї родини і стає новим королем кримінального підпілля.
+  </p>
+
+  <p class="descr"> <img src="img_m/movie2.jpeg" class="leftimg">У другій частині розкривається походження Дона Віто Корлеоне, як він прибув до Америки і заснував свою мафіозну імперію. Паралельно Майкл Корлеоне, син Дона Віто, намагається утримати сімейне домінування, проте зазнає втрат і зради з боку різних фракцій мафії. Майкл поступово стає все більш параноїдальним і жорстоким у своїх діях, щоб захистити свої інтереси. Він веде безпощадну боротьбу зі своїми ворогами, але його власна душа зазнає великих випробувань. У своїх намаганнях зберегти владу, Майкл примушує робити важкі вибори, які мають серйозні наслідки для його родини та близьких.
+  </p>
+
+  <p class="descr"> <img src="img_m/movie3.jpeg" class="rightimg">Майкл Корлеоне, лідер мафіозного роду на старості літ, намагається легалізувати свої бізнеси і забезпечити мир для своєї родини. Але його плани зриваються через труднощі та інтриги в мафіозному світі, зраду з боку близьких і душевні муки, які переслідують його. Майкл змушений стикатися з новою хвилею насильства і боротьбою за владу. Він виявляється в оточенні зрадників та загрозливих ворогів, а його родина стає об'єктом нападів. Майкл мусить зробити остаточний вибір між залишенням у світі злочинності або знайти шлях до спокою і спасіння для своєї душі.
+  </p>
+
+  </div>
+
+
+<!-- Блок футер -->
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Додаткові джерела</h5>
+                <p class="grey-text text-lighten-4"> Використовуйте ці посилання для більшого ознайомлення з фільмом.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Посилання</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://vertigo.com.ua/review/the-godfather-classic-review/">Рецензія №1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://moviegram.com.ua/godfather/">Рецензія №2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://gerold.lviv.ua/tsikavi-fakti-pro-kriminalnij-drami/">Цікаві факти</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
+<!-- Блок футер -->
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+         dots: true,
+
+
+      });
+    });
+  </script>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
